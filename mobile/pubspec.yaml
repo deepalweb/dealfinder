@@ -1,0 +1,19 @@
+name: dealfinder_mobile
+description: A location-based discount app
+
+dependencies:
+  flutter:
+    sdk: flutter
+  geolocator: ^10.1.0
+  http: ^1.2.0
+  flutter_map: ^4.0.0
+  latlong2: ^0.8.1
+  get: ^4.6.6
+  flutter_local_notifications: ^17.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+environment:
+  sdk: '>=3.7.0 <4.0.0'
